@@ -1,0 +1,1 @@
+python3 evaluation/main.py -p ./outputs -g ./widerface/ground_truth

@@ -1,0 +1,1 @@
+python3 eval.py --weights runs/train/gelan-keypoint-ddtect/weights/best.pt --data-root ./widerface --img-size 640 --conf-thres 0.01 --iou-thres 0.5 --device 0

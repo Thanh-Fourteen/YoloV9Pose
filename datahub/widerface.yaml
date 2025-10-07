@@ -1,0 +1,10 @@
+train: /home/tiennv/tiennv/tiennv/datasets/widerface/images/train
+val: /home/tiennv/tiennv/tiennv/datasets/widerface/images/val
+test: /home/tiennv/tiennv/tiennv/datasets/widerface/images/test
+
+# number of classes
+nc: 1
+
+# class names
+names:
+  0: face
