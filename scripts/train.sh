@@ -17,10 +17,12 @@
 python train.py \
     --weights 'weights/gelan-c.pt' \
     --cfg 'models/detect/gelan-keypoint-ddtect.yaml' \
-    --data 'datahub/widerface.yaml' \
+    --data '/home/tiennv/tiennv/FPT/thanhnn/datasets/face_gender/data.yaml' \
     --hyp 'data/hyps/hyp.scratch-high.yaml' \
-    --batch-size 16 \
+    --batch-size 8 \
     --name "gelan-keypoint-ddtect" \
     --kpt-label 5 \
     --epochs 250 \
     --optimizer 'AdamW' \
+
+    # --data 'datahub/widerface.yaml' \

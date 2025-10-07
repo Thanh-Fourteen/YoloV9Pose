@@ -179,6 +179,7 @@ dataset/
 weights/
 runs/
 wandb/
+!utils/loggers/wandb/
 widerface/
 
 # mac
